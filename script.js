@@ -7,7 +7,7 @@ document.body.addEventListener("keydown", (e) => {
 
 btn.addEventListener("click", () => {
     let song = document.querySelector("#input").value;
-    var interval;
+    let interval;
 
     if( btn.innerHTML == "Parar") {
         control = 1;
